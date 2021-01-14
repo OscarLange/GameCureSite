@@ -10,6 +10,10 @@
   width: 100%;
 }
 
+#mainBody {
+  min-width: 800px;
+}
+
 #headLineDiv {
   padding-top: 15vh;
   padding-left: 15vh;
