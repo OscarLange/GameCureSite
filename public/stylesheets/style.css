@@ -1,22 +1,49 @@
-#headerBarLeft {
+
+#headerBar {
   position: fixed;
   top: 0;
   left: 0;
   padding-left: 2vh;
-  padding-top: 1vh;
+  padding-top: 0.5vh;
+  padding-bottom: 1vh;
+  background: #2ca0c7;
+  width: 100%;
+}
+
+#headLineDiv {
+  padding-top: 15vh;
+  padding-left: 15vh;
+  padding-bottom: 15vh;
+}
+
+.backgroundColor {
+  background: #2ca0c7;
+}
+
+#aboutUsBody {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  text-align: center;
+}
+
+.threeColumn {
+  display: flex;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 10vh;
 }
 
 #headerBarRight {
   position: fixed;
   top: 0;
   right: 0;
+  padding-top: 0.5vh;
   padding-right: 2vh;
-  padding-top: 1vh;
 }
 
 #firstDiv {
   background: #2ca0c7;
-  padding-top: 20vh;
+  padding-top: 15vh;
   padding-left: 15vh;
   padding-bottom: 15vh;
 }
@@ -38,8 +65,47 @@
   background: white;
   display: flex;
   padding-left: 5vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+#fourthDiv {
+  background: #95d4ed;
+  display: flex;
+  padding-left: 10vh;
   padding-top: 10vh;
   padding-bottom: 10vh;
+}
+
+#fifthDiv {
+  background: #ebf0f2;
+  padding-top: 15vh;
+  padding-left: 10vh;
+  padding-bottom: 15vh;
+}
+
+#sixthDiv {
+  background: white;
+  display: flex;
+  padding-left: 10vh;
+  padding-top: 8vh;
+  padding-bottom: 10vh;
+}
+
+#sixthDivLeft {
+  padding-top: 2vh;
+}
+
+#seventhDiv {
+  background: #95d4ed;
+  display: flex;
+  padding-left: 10vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+#seventhDivLeft {
+  padding-top: 5vh;
 }
 
 .column {
@@ -50,7 +116,6 @@
   flex: 33%;
   text-align: center;
 }
-
 
 .section {
   width: 100%;
@@ -83,6 +148,10 @@ h1 {
   font-size: 1.5em;
 }
 
+.normal2Label {
+  font-size: 2em;
+}
+
 .whiteText {
   color: white;
 }
@@ -93,14 +162,29 @@ h1 {
 }
 
 #appleButton {
-  background-color: Transparent;
+  margin-top: 2vh;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: black;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
   border: none;
-  padding-left: 0;
-  padding-top: 1vh;
+  transition: all 0.4s ease 0s;
 }
+
+#appleButton:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  }
 
 .hollowBlue {
   color: #2ca0c7;
-  -webkit-text-fill-color: #ebf0f2;
+  -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 3px;
 }
