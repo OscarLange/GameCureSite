@@ -24,6 +24,7 @@
   display: flex;
   padding-left: 10vw;
   padding-top: 10vh;
+  padding-right: 10vw;
 }
 
 #headerBarRight {
