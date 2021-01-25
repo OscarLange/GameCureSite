@@ -7,8 +7,13 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var aboutUsRouter = require('./routes/aboutUs');
 var usersRouter = require('./routes/users');
+var addEmailRouter = require('./routes/addEmail');
 
 var app = express();
+
+require('dotenv').config()
+
+const MongoClient = require('mongodb').MongoClient;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -23,6 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/aboutUs', aboutUsRouter);
 app.use('/users', usersRouter);
+app.use('/addEmail', addEmailRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
