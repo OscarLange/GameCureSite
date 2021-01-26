@@ -46,10 +46,15 @@
 #videoDiv {
   background: white;
   padding-top: 15vh;
-  padding-left: 15vw;
-  padding-right: 15vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
   padding-bottom: 15vh;
   display: flex;
+}
+
+.paddingleft{
+  padding-left: 5vw;
+  padding-top: 5vh;
 }
 
 #secondDiv {
@@ -128,11 +133,11 @@
 }
 
 .columntwothird {
-  flex: 75%;
+  flex: 60%;
 }
 
 .columnonethird {
-  flex: 25%;
+  flex: 40%;
 }
 
 .section {
