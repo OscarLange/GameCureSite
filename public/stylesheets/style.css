@@ -182,6 +182,14 @@ h1 {
   color: white;
 }
 
+.redText {
+  color: red;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
 .headerBarButton {
     background-color: Transparent;
     border: none;
