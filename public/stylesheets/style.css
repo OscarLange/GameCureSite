@@ -66,6 +66,22 @@
   padding-bottom: 10vh;
 }
 
+#eighthDiv {
+  background: #95d4ed;
+  padding-top: 15vh;
+  padding-left: 10vw;
+  padding-right: 5vw;
+  padding-bottom: 15vh;
+}
+
+#ninethDiv {
+  background: white;
+  padding-top: 15vh;
+  padding-left: 10vw;
+  padding-right: 5vw;
+  padding-bottom: 15vh;
+}
+
 #secondDivLeft {
   padding-left: 5vw;
 }
@@ -213,6 +229,19 @@ h1 {
   transition: all 0.4s ease 0s;
 }
 
+#androidButton {
+  margin-top: 2vh;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: black;
+  padding: 10px;
+  border-radius: 2px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
 input {
     margin-top: 2vh;
     color: #fff !important;
@@ -233,7 +262,16 @@ input {
   -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
   box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
   transition: all 0.4s ease 0s;
-  }
+}
+
+#androidButton:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
 
 .hollowBlue {
   color: #2ca0c7;
